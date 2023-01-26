@@ -1,0 +1,261 @@
+body,
+p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: #fbfbfb;
+}
+
+header {
+  border: 0px solid skyblue;
+}
+header nav {
+  border: 0px solid bisque;
+  height: 8vh;
+  max-height: 80px;
+  background-color: #00201e;
+}
+header nav .con-nav-header {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .con-nav-header p:nth-child(1) {
+  border: 0px solid floralwhite;
+  font-size: 16px;
+  font-weight: 600;
+}
+header nav .con-nav-header p:nth-child(2) {
+  border: 0px solid cornsilk;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+main {
+  border: 0px solid skyblue;
+  height: 92vh;
+  background-color: #004d3a;
+}
+main .con-main {
+  border: 0px solid aliceblue;
+  height: 100%;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template: "card attributes" 2fr "card button" 0.25fr/1fr 1.5fr;
+}
+main .con-main .card-main {
+  grid-area: card;
+  border: 0px solid navajowhite;
+  height: 400px;
+  width: 320px;
+  align-self: flex-start;
+  background-color: #00201e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .con-main .card-main .name-card-main {
+  border: 0px solid magenta;
+  height: 40px;
+  width: 300px;
+  background-color: #003d39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .con-main .card-main .name-card-main p {
+  border: 0px solid skyblue;
+  width: 94%;
+  font-size: 16px;
+}
+main .con-main .card-main .img-card-main {
+  border: 0px solid yellow;
+  height: 160px;
+  width: 300px;
+  background-color: #fbfbfb;
+}
+main .con-main .card-main .attribut-card-main {
+  border: 8px solid #003d39;
+  height: 160px;
+  width: 300px;
+  padding-top: 4px;
+  background-color: #007f5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+main .con-main .card-main .attribut-card-main .description-attribut-card-main {
+  border: 0px solid red;
+  width: 96%;
+  font-size: 12px;
+}
+main .con-main .card-main .attribut-card-main .hes-attribut-card-main {
+  border: 0px solid yellow;
+  height: 32px;
+  width: 100%;
+  padding: 0 4px;
+  background-color: #00201e;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+  font-size: 12px;
+}
+main .con-main .card-main .attribut-card-main .hes-attribut-card-main .hea-hes-attribut-card-main {
+  border: 0px solid lightpink;
+  display: flex;
+}
+main .con-main .card-main .attribut-card-main .hes-attribut-card-main .ene-hes-attribut-card-main {
+  border: 0px solid red;
+  display: flex;
+}
+main .con-main .card-main .attribut-card-main .hes-attribut-card-main .str-hes-attribut-card-main {
+  border: 0px solid lightpink;
+  display: flex;
+}
+main .con-main .attributes-main {
+  grid-area: attributes;
+  border: 0px solid aqua;
+  height: 400px;
+  width: 500px;
+  padding: 12px 0;
+  background-color: #004534;
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .con-main .attributes-main .content-attributes-main {
+  border: 0px solid mintcream;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+main .con-main .attributes-main .content-attributes-main .name-content-attributes-main {
+  border: 0px solid yellow;
+  width: 92%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+main .con-main .attributes-main .content-attributes-main .name-content-attributes-main .title-name-content-attributes-main {
+  border: 0px solid blue;
+  width: 30%;
+}
+main .con-main .attributes-main .content-attributes-main .name-content-attributes-main .title-name-content-attributes-main p {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .con-main .attributes-main .content-attributes-main .name-content-attributes-main .text-name-content-attributes-main {
+  border: 0px solid whitesmoke;
+  width: 70%;
+}
+main .con-main .attributes-main .content-attributes-main .name-content-attributes-main .text-name-content-attributes-main p {
+  font-size: 16px;
+}
+main .con-main .attributes-main .content-attributes-main .nickname-content-attributes-main {
+  border: 0px solid yellow;
+  width: 92%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+main .con-main .attributes-main .content-attributes-main .nickname-content-attributes-main .title-nickname-content-attributes-main {
+  border: 0px solid blue;
+  width: 30%;
+}
+main .con-main .attributes-main .content-attributes-main .nickname-content-attributes-main .title-nickname-content-attributes-main p {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .con-main .attributes-main .content-attributes-main .nickname-content-attributes-main .text-nickname-content-attributes-main {
+  border: 0px solid whitesmoke;
+  width: 70%;
+}
+main .con-main .attributes-main .content-attributes-main .nickname-content-attributes-main .text-nickname-content-attributes-main p {
+  font-size: 16px;
+}
+main .con-main .attributes-main .content-attributes-main .nationality-content-attributes-main {
+  border: 0px solid yellow;
+  width: 92%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+main .con-main .attributes-main .content-attributes-main .nationality-content-attributes-main .title-nationality-content-attributes-main {
+  border: 0px solid blue;
+  width: 30%;
+}
+main .con-main .attributes-main .content-attributes-main .nationality-content-attributes-main .title-nationality-content-attributes-main p {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .con-main .attributes-main .content-attributes-main .nationality-content-attributes-main .text-nationality-content-attributes-main {
+  border: 0px solid whitesmoke;
+  width: 70%;
+}
+main .con-main .attributes-main .content-attributes-main .nationality-content-attributes-main .text-nationality-content-attributes-main p {
+  font-size: 16px;
+}
+main .con-main .attributes-main .content-attributes-main .job-content-attributes-main {
+  border: 0px solid yellow;
+  width: 92%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+main .con-main .attributes-main .content-attributes-main .job-content-attributes-main .title-job-content-attributes-main {
+  border: 0px solid blue;
+  width: 30%;
+}
+main .con-main .attributes-main .content-attributes-main .job-content-attributes-main .title-job-content-attributes-main p {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .con-main .attributes-main .content-attributes-main .job-content-attributes-main .text-job-content-attributes-main {
+  border: 0px solid whitesmoke;
+  width: 70%;
+}
+main .con-main .attributes-main .content-attributes-main .job-content-attributes-main .text-job-content-attributes-main p {
+  font-size: 16px;
+}
+main .con-main .attributes-main .button-attributes-main {
+  border: 0px solid cornsilk;
+  height: 32px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .con-main .attributes-main .button-attributes-main .back-button-attributes-main {
+  border: 0px solid red;
+  color: #fbfbfb;
+}
+main .con-main .attributes-main .button-attributes-main .next-button-attributes-main {
+  border: 0px solid yellow;
+  color: #fbfbfb;
+}
+main .con-main .start-main {
+  grid-area: button;
+  height: 40px;
+  width: 80px;
+  background-color: #00201e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+}
+main .con-main .start-main p {
+  font-size: 18px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

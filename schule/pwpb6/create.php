@@ -1,11 +1,11 @@
 <?php
 $koneksi = new mysqli("localhost", "root", "", "db_pwpb6");
-@$nis = $_POST['nis'];
-@$namaSiswa = $_POST['nama_siswa'];
-@$jenisKelamin = $_POST['jenis_kelamin'];
+@$no = $_POST['no'];
+@$mapel = $_POST['mapel'];
+@$nilai = $_POST['nilai'];
 
-$result = mysqli_query($koneksi, "INSERT INTO tb_data_siswa SET nis='$nis',
-nama_siswa='$namaSiswa', jenis_kelamin='$jenisKelamin'");
+$result = mysqli_query($koneksi, "INSERT INTO tb_nilai_siswa SET no='$no',
+mapel='$mapel', nilai='$nilai'");
 
 if ($result) {
   echo json_encode(['message' => 'Data Input Succesfully']);

@@ -1,13 +1,13 @@
 <?php
 
 $koneksi = new mysqli("localhost", "root", "", "db_pwpb6");
-$noAbsen = $_POST['no_absen'];
-$nis = $_POST['nis'];
-$namaSiswa = $_POST['nama_siswa'];
-$jenisKelamin = $_POST['jenis_kelamin'];
+$id = $_POST['id'];
+$no = $_POST['no'];
+$mapel = $_POST['mapel'];
+$nilai = $_POST['nilai'];
 
-$result = mysqli_query($koneksi, "UPDATE tb_data_siswa SET nis='$nis',
-nama_siswa='$namaSiswa', jenis_kelamin='$jenisKelamin' WHERE no_absen='$noAbsen'");
+$result = mysqli_query($koneksi, "UPDATE tb_nilai_siswa SET id='$id',
+no='$no', mapel='$mapel' WHERE nilai='$nilai'");
 
 if ($result) {
   echo json_encode(['message' => 'Data Input Succesfully']);
