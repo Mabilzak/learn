@@ -1,0 +1,264 @@
+//CSS RESET
+body,
+p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: #fbfbfb;
+}
+
+header {
+  border: 0px solid skyblue;
+  nav {
+    border: 0px solid bisque;
+    height: 8vh;
+    max-height: 80px;
+    background-color: #00201e;
+    .con-nav-header {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p:nth-child(1) {
+        border: 0px solid floralwhite;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      p:nth-child(2) {
+        border: 0px solid cornsilk;
+        font-size: 28px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+main {
+  border: 0px solid skyblue;
+  height: 92vh;
+  background-color: #004d3a;
+  .con-main {
+    border: 0px solid aliceblue;
+    height: 100%;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template:
+      "card attributes" 2fr
+      "card button" 0.25fr / 1fr 1.5fr;
+    .card-main {
+      grid-area: card;
+      border: 0px solid navajowhite;
+      height: 400px;
+      width: 320px;
+      align-self: flex-start;
+      background-color: #00201e;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      .name-card-main {
+        border: 0px solid magenta;
+        height: 40px;
+        width: 300px;
+        background-color: #003d39;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          border: 0px solid skyblue;
+          width: 94%;
+          font-size: 16px;
+        }
+      }
+      .img-card-main {
+        border: 0px solid yellow;
+        height: 160px;
+        width: 300px;
+        background-color: #fbfbfb;
+      }
+      .attribut-card-main {
+        border: 8px solid #003d39;
+        height: 160px;
+        width: 300px;
+        padding-top: 4px;
+        background-color: #007f5f;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .description-attribut-card-main {
+          border: 0px solid red;
+          width: 96%;
+          font-size: 12px;
+        }
+        .hes-attribut-card-main {
+          border: 0px solid yellow;
+          height: 32px;
+          width: 100%;
+          padding: 0 4px;
+          background-color: #00201e;
+          display: flex;
+          align-items: center;
+          justify-content: end;
+          gap: 8px;
+          font-size: 12px;
+          .hea-hes-attribut-card-main {
+            border: 0px solid lightpink;
+            display: flex;
+          }
+          .ene-hes-attribut-card-main {
+            border: 0px solid red;
+            display: flex;
+          }
+          .str-hes-attribut-card-main {
+            border: 0px solid lightpink;
+            display: flex;
+          }
+        }
+      }
+    }
+    .attributes-main {
+      grid-area: attributes;
+      border: 0px solid aqua;
+      height: 400px;
+      width: 500px;
+      padding: 12px 0;
+      background-color: #004534;
+      display: flex;
+      justify-self: flex-end;
+      flex-direction: column;
+      justify-content: space-between;
+      .content-attributes-main {
+        border: 0px solid mintcream;
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        .name-content-attributes-main {
+          border: 0px solid yellow;
+          width: 92%;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          .title-name-content-attributes-main {
+            border: 0px solid blue;
+            width: 30%;
+            p {
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+          .text-name-content-attributes-main {
+            border: 0px solid whitesmoke;
+            width: 70%;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+        .nickname-content-attributes-main {
+          border: 0px solid yellow;
+          width: 92%;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          .title-nickname-content-attributes-main {
+            border: 0px solid blue;
+            width: 30%;
+            p {
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+          .text-nickname-content-attributes-main {
+            border: 0px solid whitesmoke;
+            width: 70%;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+        .nationality-content-attributes-main {
+          border: 0px solid yellow;
+          width: 92%;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          .title-nationality-content-attributes-main {
+            border: 0px solid blue;
+            width: 30%;
+            p {
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+          .text-nationality-content-attributes-main {
+            border: 0px solid whitesmoke;
+            width: 70%;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+        .job-content-attributes-main {
+          border: 0px solid yellow;
+          width: 92%;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          .title-job-content-attributes-main {
+            border: 0px solid blue;
+            width: 30%;
+            p {
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+          .text-job-content-attributes-main {
+            border: 0px solid whitesmoke;
+            width: 70%;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .button-attributes-main {
+        border: 0px solid cornsilk;
+        height: 32px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .back-button-attributes-main {
+          border: 0px solid red;
+          color: #fbfbfb;
+        }
+        .next-button-attributes-main {
+          border: 0px solid yellow;
+          color: #fbfbfb;
+        }
+      }
+    }
+    .start-main {
+      grid-area: button;
+      height: 40px;
+      width: 80px;
+      background-color: #00201e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-self: flex-end;
+      p {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+}
